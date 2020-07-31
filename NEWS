@@ -17,6 +17,10 @@ PHP                                                                        NEWS
   . Fixed bug #73060 (php failed with error after temp folder cleaned up).
     (cmb)
 
+- PDO:
+  . Fixed bug #79914 (PHP PDO mysqlnd ignores InnoDB deadlock errors).
+    (houxiaoxian)
+
 06 Aug 2020, PHP 7.4.9
 
 - Apache:
