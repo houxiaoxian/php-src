@@ -49,7 +49,7 @@ int _pdo_mysql_stmt_error(pdo_dbh_t *dbh, pdo_stmt_t *stmt, const char *file, in
 	pdo_mysql_stmt *S = NULL;
 
 
-	PDO_DBG_ENTER("_pdo_mysql_error");
+	PDO_DBG_ENTER("_pdo_mysql_stmt_error");
 	PDO_DBG_INF_FMT("file=%s line=%d", file, line);
 	S = (pdo_mysql_stmt*)stmt->driver_data;
 	pdo_err = &stmt->error_code;
